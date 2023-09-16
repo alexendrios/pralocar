@@ -14,7 +14,7 @@ console = Console(record=False)
 url="https://www.go.gov.br/servicos-digitais/detran/consulta-veiculos"
 
 # Dados Referente as Registros Placa e Renavam
-df= pd.read_csv('./data/carretinhas.csv', sep=';')
+df= pd.read_csv('./data/carretinhas1.csv', sep=';')
 
 print("\n[yellow][b]Pra Locar[/][/]\n[red]*********[/]")
 with console.status('Configurando o sistema\n...'):
